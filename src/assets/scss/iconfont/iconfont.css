@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('./iconfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'vanIcon';
+  src: url('https://img.yzcdn.cn/vant/vant-icon-db1de1.ttf') format('truetype');
+}
+
+.van-icon {
+  position: relative;
+  font-family: 'iconfont', 'vanIcon' !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.van-icon-home:before {
+  content: '\e600';
+}
+
+.van-icon-order:before {
+  content: '\e60d';
+}
+
+.van-icon-user:before {
+  content: '\e601';
+}

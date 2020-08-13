@@ -1,0 +1,56 @@
+{
+  "name": "sjzy",
+  "version": "0.1.0",
+  "description": "sjzy",
+  "author": "chenjunwei",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build  --mode production",
+    "build:dep": "vue-cli-service build --mode deployment",
+    "build:prod": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": ">=0.18.1",
+    "dayjs": "^1.7.7",
+    "js-cookie": "2.2.0",
+    "js-md5": "^0.7.3",
+    "lodash": "^4.17.11",
+    "mint-ui": "^2.2.13",
+    "node-sass": "^4.14.0",
+    "nprogress": "^0.2.0",
+    "vant": "^2.10.2",
+    "vconsole": "^3.3.4",
+    "vue": "^2.5.17",
+    "vue-ls": "^3.2.1",
+    "vue-router": "^3.0.1",
+    "vuelidate": "^0.7.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "@vue/eslint-config-prettier": "^3.0.5",
+    "babel-plugin-import": "^1.9.1",
+    "babel-plugin-lodash": "^3.3.4",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.17",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
